@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Microservice Demo</title>
+    <style>
+      body {
+        padding-top: 2.1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <pfe-responsive-image
+      src="https://www.redhat.com/cms/managed-files/corp-responsibility-group-img-01.png"
+      method="smartcrop"
+      width="800"
+      height="400"
+      quality="100"
+      blur="0"
+    ></pfe-responsive-image>
+    <script type="module" src="./pfe-responsive-image.js"></script>
+  </body>
+</html>
